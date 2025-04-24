@@ -1,0 +1,7 @@
+name: ngff-zarr
+display_name: NGFF Zarr
+contributions:
+  readers:
+    - command: ngff_zarr.napari_plugin:ome_zarr_reader
+      filename_patterns: ["*.zarr"]
+      accepts_directories: true 
